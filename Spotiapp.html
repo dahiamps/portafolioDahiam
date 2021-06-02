@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilosSpotiapp.css">
     <title>SpotyApp</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
 
             <div class="container">
                 <div class="container-fluid">
@@ -22,13 +23,13 @@
                     </a>
                 </div>
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler justify-content-md-end" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse " id="navbarsExample08">
+                    <div class="collapse  justify-content-md-end navbar-collapse " id="navbarsExample08">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="Spotiapp.html">Home</a>
@@ -41,6 +42,33 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+            <div class="container-xl">
+                <a class="navbar-brand logo" href="#">
+                    <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top ">
+                    SpotiApp
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                    aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse justify-content-md-end navbar-collapse" id="navbarsExample07XL">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Spotiapp.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="canciones.html">Top Canciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Portafolio</a>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </nav>
@@ -57,7 +85,7 @@
                                 <img src="img/cover.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/cover.jpg" class="d-block w-100" alt="...">
+                                <img src="img/VOLVER.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/album.jpg" class="d-block w-100" alt="...">
@@ -82,35 +110,25 @@
             </div>
         </div>
         <div class="container p-2">
-            <div class="row">
-                <div class="col-4">
-                    <h1 class="text-center">Logo</h1>
-                    <img src="img/sfdk_logo.png" class=" mx-auto d-block" alt="">
-                    <h1 class="text-center">Integrantes</h1>
-                    <div>
-                        <img src="img/zatu.jpg" alt="" class=" mx-auto d-block p-2">
-                        <h3 class="text-center">Zatu</h3>
-                        <img src="img/acs.jpg" alt="" class=" mx-auto d-block p-2">
-                        <h3 class="text-center">Accion Sanchez</h3>
-                    </div>
-                </div>
-
-                <div class="col-8">
-                    <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6"><h1 class="text-center">Logo</h1>
+                    <img src="img/sfdk_logo.png" class=" mx-auto d-block" alt=""></div>
+                    <div class="col-md-6">
                         <h1 class="text-center"> Historia</h1>
-
+                        
                         <p>SFDK es un grupo de hip hop sevillano formado por Zatu (Saturnino Rey, MC) y Acción Sánchez
                             (Óscar Sánchez, DJ).1​</p>
-
-                        <h1 class="text-center">Inicios</h1>
-
+                        
+                        <h3 class="text-center">Inicios</h3>
+                        
                         <p>El grupo nace a principios de la década de los 90, en el instituto donde estudiaba Zatu.
                             Junto a varios amigos formaron
                             el grupo Straight From Da Kranny (SFDK), traducido al español como "Directamente desde el
                             rincón (o escondrijo)". Dicho
                             nombre hace referencia al lugar en el que se reunía el grupo. Este derivó y pasó a ser
                             "Siempre Fuertes De Konciencia".</p>
-
+                        
                         <p>En 1993 Zatu grabó una maqueta titulada Outta Kranny. Un año más tarde Acción Sánchez ingresa
                             en el grupo y en 1995
                             graban otra maqueta "Tras mil vueltas". Dicho trabajo contó con la ayuda musical de DPC&K
@@ -126,78 +144,141 @@
                             llegaron a vender 800 copias por toda España. Con ella dieron sus primeros conciertos fuera
                             de Andalucía, en lugares
                             como Alicante, Barcelona o Albacete.</p>
-
-                        <h1 class="text-center">Llámalo como lo quieras</h1>
-
-                        <p>En 1997 se crea el primer sello discográfico especializado en música rap en Sevilla,
-                            Zeroporsiento. La primera
-                            referencia publicada por este sello fue el primer sencillo de SFDK en formato profesional:
-                            "Llámalo como lo quieras" en
-                            1997.
-                        </p>
-
-                        <h1 class="text-center"> Siempre Fuertes</h1>
-
-                        <p>A raíz de su maxi "Llámalo como lo quieras", la discográfica Zona Bruta les propone pasar a
-                            formar parte de sus filas.
-                            Con ella SFDK publicó su primer LP en el año 1999. Su título, "Siempre fuertes", hace
-                            alusión directa al actual
-                            significado de la siglas del grupo, desligándose en cierto modo de los anteriores
-                            componentes. Aunque el grueso del
-                            trabajo en cuanto a beats fue asumido por Acción Sánchez, contaron también con un apoyo
-                            importante por parte de Frank-T.
-
-                            Musicalmente el disco seguía las pautas ya vistas en su Maxi "Llámalo como lo quieras". Con
-                            temáticas sobre exaltación
-                            del ego del artista y bases musicales oscuras.</p>
-
-                        <h1 class="text-center">Odisea en el lodo </h1>
-
-                        <p>En 2003 editan "2001 Odisea en el lodo" y entran en las filas de Wild Punk famosa agencia de
-                            mánager andaluza. Tras
-                            vender unas 12 000 copias, comienzan una extensa gira por toda la península ibérica. A su
-                            vez, realizaron actuaciones en
-                            México, Chile, y Los Ángeles en el festival de música latina, LAMC (Latin Alternative Music
-                            Conference). El disco
-                            incluye temas reconocidos del grupo como ¿Dónde está Wifly? o El liricista en el tejado.
-                        </p>
-                        <div>
-
-                            <h1 class="text-center"> Otros trabajos</h1>
-
-                            <ul>
-                                <li>2005</li>
-                                <li>Los veteranos
-                                </li>
-                                <li>Siempre fuertes 2
-                                </li>
-                                <li>Lista de invitados
-                                </li>
-                                <li>Sin miedo a vivir
-                                </li>
-                                <li>Redención
-                                </li>
-                            </ul>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="container p-2">
-            <div class="col-4">
-               
+            <h1 class="text-center"> Integrantes</h1>
+        </div>
+        <div class="container p-2">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <img src="img/zatu.jpg" class="integrantes" alt="">
+                    <h2 class="text-center p-4">Zatu - Vocalista</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/acs.jpg"  class="integrantes" alt="">
+                    <h2 class="text-center p-4"> Accion Sanchez - Dj</h2>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
             </div>
         </div>
+        
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-center p-2">Discografia</h1>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Año</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Llámalo como lo quieras</td>
+                        <td>1997</td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>2001 Odisea en el lodo</td>
+                        <td>2003</td>
+                        
+                    </tr>
+                    <tr>
+                    <th scope="row">3</th>
+                    <td>Después de...</td>
+                    <td>2004</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>2005</td>
+                        <td>2005</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Los veteranos</td>
+                        <td>2007</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Siempre Fuertes 2</td>
+                        <td>2009</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Lista de invitados</td>
+                        <td>2011</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Sin miedo a vivir</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Redención</td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h1 class="text-center p-2">Premios y distinciones</h1>
+            <ul>
+                <li>"2005" (SFDK Records/Boa Music, 2005) (Disco de Oro por sus más de 40.000 copias vendidas)</li>
+                <li>"Los veteranos" (SFDK Records/Boa Music, 2007) (Nominado a los premios de la Música como mejor álbum de rap)</li>
+                <li>"Siempre Fuertes 2" (SFDK Records/Boa Music, 2009) (Ganador de los premios de la Música como mejor álbum de rap)</li>
+                <li>"Después de..." (SFDK Records, 2004) (Maxi de Oro por sus más de 10 000 copias vendidas)</li>
+                <li>"Original Rap University" (SFDK Records, 2006) (Maxi de Oro por sus más de 10 000 copias vendidas)</li>
+                <li>SFDK recibe la Medalla de la Ciudad de Sevilla - 2020</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
     </main>
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="text-center">Redes Sociales</h1>
+                    <a href="https://www.youtube.com/playlist?playnext=1&list=PL81GiDuWx1jeX2KRN_2YQZw4cX7GGb0CY&feature=gws_kp_artist" target="_BLANK"><fa-4x class="fab fa-youtube fa-4x p-3"></i></a>
+                    <a href="https://twitter.com/SFDKoficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_BLANK"><i class="fab fa-twitter-square fa-4x p-3"></i></a>
+                    <a href="https://www.instagram.com/sfdkoficial/?hl=es" target="_BLANK"><i class="fab fa-instagram-square fa-4x p-3"></i></a>
+                    <a href="https://open.spotify.com/artist/56n1NeXsTOOxjX3Z4lVMTJ?autoplay=true" target="_BLANK"><i class="fab fa-spotify fa-4x p-3"></i> </a>
+                </div>
+                <div class="col-sm-4">
+                    
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h4>Copyright ©2021, Esta pagina fue hecha por Dahiam Stiven Castaño Posso</h4>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/b980c82c6e.js" crossorigin="anonymous"></script>
+
 
 </body>
 

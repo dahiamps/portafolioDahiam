@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sigmar+One&family=ZCOOL+KuaiLe&display=swap');
+:root {
+    /* Font familiy */
+    --txt: 'Architects Daughter', sans-serif;
+    --logo: 'ZCOOL KuaiLe', sans-serif;
+    --h1: 'Sigmar One', sans-serif
+
+}
+
+h1,h3{
+    font-family: var(--h1);
+}
+
+p,h2,h4 {
+    font-family: var(--txt);
+}
+
+.logo {
+    font-family: var(--logo);
+}
+
 .card {
     background: linear-gradient(-60deg, #16a08471 0%, #f4d03f88 100%);
 }
 
-footer {
+.integrantes {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px #1ee24671;
+}
+
+ footer {
     background-color: rgba(0, 0, 0, 0.9);
     margin-top: 25px;
 }
@@ -16,13 +44,6 @@ footer p {
     color: white;
 }
 
-li {
-    color: aqua;
-}
-
-.email {
-    margin-top: 50px;
-}
 
 footer h4 {
     color: whitesmoke;
@@ -35,4 +56,4 @@ footer hr {
 
 .fab {
     color: white;
-}
+} 
