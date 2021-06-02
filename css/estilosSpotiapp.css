@@ -1,0 +1,38 @@
+.card {
+    background: linear-gradient(-60deg, #16a08471 0%, #f4d03f88 100%);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 25px;
+}
+
+footer h1 {
+    margin: 15px;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+li {
+    color: aqua;
+}
+
+.email {
+    margin-top: 50px;
+}
+
+footer h4 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer hr {
+    color: whitesmoke;
+}
+
+.fab {
+    color: white;
+}

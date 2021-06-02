@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand:wght@300&display=swap');
+:root {
+    /* colores */
+    --primary: #4ecc63 !important;
+    --secondary: #52bb60 !important;
+    --grey: #e4eee3 !important;
+    --dark: #343a40 !important;
+    /* Font familiy */
+    --txt: 'Quicksand', sans-serif;
+    --logo: 'Pacifico', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+/* Scrolbar custom */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--grey);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(var(--primary), var(--secondary));
+    border-radius: 10px;
+}
+
+.navbar {
+    box-shadow: 1px 1px 5px var(--grey);
+}
+
+.logo {
+    font-size: 30px;
+    font-family: var(--logo);
+    color: var(--primary);
+}
+
+.nav-link {
+    color: var(--dark);
+}
+
+.nav-link:hover {
+    color: var(--grey);
+    background-color: var(--secondary);
+    border-radius: 50px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    font-size: 30px !important;
+}
+
+#home {
+    padding-top: 20px !important;
+}
+
+#about, #skills, #contact, #work {
+    padding-top: 100px !important;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    #about, #skills, #contact, #work {
+        padding-top: 0px !important;
+    }
+}
+
+.social-media li {
+    list-style: none;
+}
+
+.social-media i {
+    font-size: 36px;
+}
+
+.bxl-twitter::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    transform: translate(-500%, 35%);
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .bxl-twitter::after {
+        display: none;
+    }
+}
+
+.theme-text {
+    color: var(--primary);
+}
+
+#person-img {
+    background-image: url("/img/goku4.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 408px;
+    background-position-x: 50%;
+}
+
+#person-img::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    background-color: var(--primary);
+    border-radius: 30% 70% 70% 30%/30% 40% 60% 70%;
+    /* Se usa ra los bordes del globo de color   */
+    z-index: -1;
+    transform: translate(17%);
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    #person-img {
+        display: none;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: var(--logo);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 20px;
+}
+
+.progress-con {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--grey);
+}
+
+.progress {
+    height: 10px !important;
+}
+
+.progress-bar {
+    background-image: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+#active {
+    color: var(--primary);
+}
+
+#work li {
+    cursor: pointer;
+}
+
+#work i {
+    font-size: 50px;
+    color: var(--primary);
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--primary)!important;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 42, 0.25) !important;
+}
+
+.foot-icon li {
+    list-style: none;
+}
+
+.foot-icon {
+    color: white;
+    font-size: 35px;
+}
+
+.copyright {
+    color: white;
+}
+
+footer {
+    margin-top: 25px;
+}
