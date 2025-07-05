@@ -109,7 +109,7 @@ body {
 }
 
 #person-img {
-    background-image: url("/img/goku4.png");
+    background-image: url("../img/goku4.png");;
     background-repeat: no-repeat;
     width: 50%;
     height: 408px;
